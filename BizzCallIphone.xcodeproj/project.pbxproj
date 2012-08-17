@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB7A81D15DECC3400DB75E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7A81C15DECC3400DB75E8 /* UIKit.framework */; };
+		CEB7A81F15DECC3500DB75E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7A81E15DECC3400DB75E8 /* Foundation.framework */; };
+		CEB7A82115DECC3500DB75E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7A82015DECC3500DB75E8 /* CoreGraphics.framework */; };
+		CEB7A82715DECC3500DB75E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB7A82515DECC3500DB75E8 /* InfoPlist.strings */; };
+		CEB7A82915DECC3500DB75E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7A82815DECC3500DB75E8 /* main.m */; };
+		CEB7A82D15DECC3500DB75E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7A82C15DECC3500DB75E8 /* AppDelegate.m */; };
+		CEB7A83015DECC3500DB75E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7A82E15DECC3500DB75E8 /* MainStoryboard.storyboard */; };
+		CEB7A83315DECC3500DB75E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7A83215DECC3500DB75E8 /* ViewController.m */; };
+		CEB7A83B15DECC3500DB75E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7A83A15DECC3500DB75E8 /* SenTestingKit.framework */; };
+		CEB7A83C15DECC3500DB75E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7A81C15DECC3400DB75E8 /* UIKit.framework */; };
+		CEB7A83D15DECC3500DB75E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB7A81E15DECC3400DB75E8 /* Foundation.framework */; };
+		CEB7A84515DECC3600DB75E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB7A84315DECC3600DB75E8 /* InfoPlist.strings */; };
+		CEB7A84815DECC3600DB75E8 /* BizzCallIphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB7A84715DECC3600DB75E8 /* BizzCallIphoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB7A83E15DECC3500DB75E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB7A80F15DECC3400DB75E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB7A81715DECC3400DB75E8;
+			remoteInfo = BizzCallIphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB7A81815DECC3400DB75E8 /* BizzCallIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizzCallIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB7A81C15DECC3400DB75E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEB7A81E15DECC3400DB75E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEB7A82015DECC3500DB75E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEB7A82415DECC3500DB75E8 /* BizzCallIphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BizzCallIphone-Info.plist"; sourceTree = "<group>"; };
+		CEB7A82615DECC3500DB75E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB7A82815DECC3500DB75E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB7A82A15DECC3500DB75E8 /* BizzCallIphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BizzCallIphone-Prefix.pch"; sourceTree = "<group>"; };
+		CEB7A82B15DECC3500DB75E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB7A82C15DECC3500DB75E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB7A82F15DECC3500DB75E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEB7A83115DECC3500DB75E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEB7A83215DECC3500DB75E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEB7A83915DECC3500DB75E8 /* BizzCallIphoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizzCallIphoneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB7A83A15DECC3500DB75E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEB7A84215DECC3600DB75E8 /* BizzCallIphoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BizzCallIphoneTests-Info.plist"; sourceTree = "<group>"; };
+		CEB7A84415DECC3600DB75E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB7A84615DECC3600DB75E8 /* BizzCallIphoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BizzCallIphoneTests.h; sourceTree = "<group>"; };
+		CEB7A84715DECC3600DB75E8 /* BizzCallIphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BizzCallIphoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB7A81515DECC3400DB75E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7A81D15DECC3400DB75E8 /* UIKit.framework in Frameworks */,
+				CEB7A81F15DECC3500DB75E8 /* Foundation.framework in Frameworks */,
+				CEB7A82115DECC3500DB75E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB7A83515DECC3500DB75E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7A83B15DECC3500DB75E8 /* SenTestingKit.framework in Frameworks */,
+				CEB7A83C15DECC3500DB75E8 /* UIKit.framework in Frameworks */,
+				CEB7A83D15DECC3500DB75E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB7A80D15DECC3400DB75E8 = {
+			isa = PBXGroup;
+			children = (
+				CEB7A82215DECC3500DB75E8 /* BizzCallIphone */,
+				CEB7A84015DECC3600DB75E8 /* BizzCallIphoneTests */,
+				CEB7A81B15DECC3400DB75E8 /* Frameworks */,
+				CEB7A81915DECC3400DB75E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB7A81915DECC3400DB75E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7A81815DECC3400DB75E8 /* BizzCallIphone.app */,
+				CEB7A83915DECC3500DB75E8 /* BizzCallIphoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB7A81B15DECC3400DB75E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7A81C15DECC3400DB75E8 /* UIKit.framework */,
+				CEB7A81E15DECC3400DB75E8 /* Foundation.framework */,
+				CEB7A82015DECC3500DB75E8 /* CoreGraphics.framework */,
+				CEB7A83A15DECC3500DB75E8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB7A82215DECC3500DB75E8 /* BizzCallIphone */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7A82B15DECC3500DB75E8 /* AppDelegate.h */,
+				CEB7A82C15DECC3500DB75E8 /* AppDelegate.m */,
+				CEB7A82E15DECC3500DB75E8 /* MainStoryboard.storyboard */,
+				CEB7A83115DECC3500DB75E8 /* ViewController.h */,
+				CEB7A83215DECC3500DB75E8 /* ViewController.m */,
+				CEB7A82315DECC3500DB75E8 /* Supporting Files */,
+			);
+			path = BizzCallIphone;
+			sourceTree = "<group>";
+		};
+		CEB7A82315DECC3500DB75E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7A82415DECC3500DB75E8 /* BizzCallIphone-Info.plist */,
+				CEB7A82515DECC3500DB75E8 /* InfoPlist.strings */,
+				CEB7A82815DECC3500DB75E8 /* main.m */,
+				CEB7A82A15DECC3500DB75E8 /* BizzCallIphone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB7A84015DECC3600DB75E8 /* BizzCallIphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7A84615DECC3600DB75E8 /* BizzCallIphoneTests.h */,
+				CEB7A84715DECC3600DB75E8 /* BizzCallIphoneTests.m */,
+				CEB7A84115DECC3600DB75E8 /* Supporting Files */,
+			);
+			path = BizzCallIphoneTests;
+			sourceTree = "<group>";
+		};
+		CEB7A84115DECC3600DB75E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7A84215DECC3600DB75E8 /* BizzCallIphoneTests-Info.plist */,
+				CEB7A84315DECC3600DB75E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB7A81715DECC3400DB75E8 /* BizzCallIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB7A84B15DECC3600DB75E8 /* Build configuration list for PBXNativeTarget "BizzCallIphone" */;
+			buildPhases = (
+				CEB7A81415DECC3400DB75E8 /* Sources */,
+				CEB7A81515DECC3400DB75E8 /* Frameworks */,
+				CEB7A81615DECC3400DB75E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BizzCallIphone;
+			productName = BizzCallIphone;
+			productReference = CEB7A81815DECC3400DB75E8 /* BizzCallIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB7A83815DECC3500DB75E8 /* BizzCallIphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB7A84E15DECC3600DB75E8 /* Build configuration list for PBXNativeTarget "BizzCallIphoneTests" */;
+			buildPhases = (
+				CEB7A83415DECC3500DB75E8 /* Sources */,
+				CEB7A83515DECC3500DB75E8 /* Frameworks */,
+				CEB7A83615DECC3500DB75E8 /* Resources */,
+				CEB7A83715DECC3500DB75E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB7A83F15DECC3500DB75E8 /* PBXTargetDependency */,
+			);
+			name = BizzCallIphoneTests;
+			productName = BizzCallIphoneTests;
+			productReference = CEB7A83915DECC3500DB75E8 /* BizzCallIphoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB7A80F15DECC3400DB75E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Lextrend;
+			};
+			buildConfigurationList = CEB7A81215DECC3400DB75E8 /* Build configuration list for PBXProject "BizzCallIphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEB7A80D15DECC3400DB75E8;
+			productRefGroup = CEB7A81915DECC3400DB75E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB7A81715DECC3400DB75E8 /* BizzCallIphone */,
+				CEB7A83815DECC3500DB75E8 /* BizzCallIphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB7A81615DECC3400DB75E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7A82715DECC3500DB75E8 /* InfoPlist.strings in Resources */,
+				CEB7A83015DECC3500DB75E8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB7A83615DECC3500DB75E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7A84515DECC3600DB75E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEB7A83715DECC3500DB75E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB7A81415DECC3400DB75E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7A82915DECC3500DB75E8 /* main.m in Sources */,
+				CEB7A82D15DECC3500DB75E8 /* AppDelegate.m in Sources */,
+				CEB7A83315DECC3500DB75E8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB7A83415DECC3500DB75E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7A84815DECC3600DB75E8 /* BizzCallIphoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB7A83F15DECC3500DB75E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB7A81715DECC3400DB75E8 /* BizzCallIphone */;
+			targetProxy = CEB7A83E15DECC3500DB75E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB7A82515DECC3500DB75E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7A82615DECC3500DB75E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEB7A82E15DECC3500DB75E8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7A82F15DECC3500DB75E8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB7A84315DECC3600DB75E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7A84415DECC3600DB75E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB7A84915DECC3600DB75E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEB7A84A15DECC3600DB75E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB7A84C15DECC3600DB75E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BizzCallIphone/BizzCallIphone-Prefix.pch";
+				INFOPLIST_FILE = "BizzCallIphone/BizzCallIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEB7A84D15DECC3600DB75E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BizzCallIphone/BizzCallIphone-Prefix.pch";
+				INFOPLIST_FILE = "BizzCallIphone/BizzCallIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEB7A84F15DECC3600DB75E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BizzCallIphone.app/BizzCallIphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BizzCallIphone/BizzCallIphone-Prefix.pch";
+				INFOPLIST_FILE = "BizzCallIphoneTests/BizzCallIphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEB7A85015DECC3600DB75E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BizzCallIphone.app/BizzCallIphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BizzCallIphone/BizzCallIphone-Prefix.pch";
+				INFOPLIST_FILE = "BizzCallIphoneTests/BizzCallIphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB7A81215DECC3400DB75E8 /* Build configuration list for PBXProject "BizzCallIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7A84915DECC3600DB75E8 /* Debug */,
+				CEB7A84A15DECC3600DB75E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB7A84B15DECC3600DB75E8 /* Build configuration list for PBXNativeTarget "BizzCallIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7A84C15DECC3600DB75E8 /* Debug */,
+				CEB7A84D15DECC3600DB75E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB7A84E15DECC3600DB75E8 /* Build configuration list for PBXNativeTarget "BizzCallIphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7A84F15DECC3600DB75E8 /* Debug */,
+				CEB7A85015DECC3600DB75E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB7A80F15DECC3400DB75E8 /* Project object */;
+}
